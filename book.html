@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goms Bookstore📗</title>
+  <link rel="stylesheet" href="book.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>Book Haven</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#books">Books</a></li>
+          <li><a href="#bestsellers">Bestsellers</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Welcome to Book Haven</h2>
+      <p>Your one-stop shop for the best books of all genres!</p>
+      <a href="#books" class="btn">Browse Books</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Book Haven is dedicated to providing book lovers with the latest and greatest books at affordable prices. We offer fast shipping and excellent customer service to ensure a smooth shopping experience.</p>
+    </div>
+  </section>
+
+  <section id="books" class="books">
+    <div class="container">
+      <h2>Our Collection</h2>
+      <div class="book-grid" id="bookGrid">
+        <!-- Books will be loaded here dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <section id="bestsellers" class="bestsellers">
+    <div class="container">
+      <h2>Bestsellers</h2>
+      <div class="book-grid" id="bestsellerGrid">
+        <!-- Bestseller books will be loaded here -->
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us☎️</h2>
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Book Haven. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="book.js"></script>
+</body>
+
+</html>
